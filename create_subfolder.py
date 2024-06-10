@@ -7,3 +7,5 @@ directories = [d for d in os.listdir('.') if os.path.isdir(d)]
 for dir in directories:
     migration_path = os.path.join(dir, 'migration')
     os.makedirs(migration_path, exist_ok=True)
+    #Good
+    #pls add here the code that creates files
